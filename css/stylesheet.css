@@ -37,6 +37,9 @@ body {
     background-color: black;
     font-family: 'Bahiana', sans-serif;
 }
+.header-slogan {
+    margin-left: 50px;
+}
 
 .nav {
     text-decoration: none;
@@ -117,8 +120,7 @@ h2 {
 
 .contact {
     color: purple;
-    padding-left: 100px;
-    margin-left: 75px;
+    margin-left: 200px;
 }
 
 .button {
