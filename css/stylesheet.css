@@ -1,0 +1,89 @@
+/* import Bahiana font family */
+@font-face {
+    font-family: Bahiana;
+    src: url(./fonts/Bahiana-Regular.ttf) format('truetype');
+}
+
+/* import MedievalSharp font family */
+@font-face {
+    font-family: MedievalSharp;
+    src: url(./fonts/MedievalSharp-Regular.ttf) format('truetype');
+}
+
+body {
+    background-color: black;
+    font-family: 'Bahiana', sans-serif;
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+li {
+    list-style: none;
+}
+
+.navtitle {
+    text-decoration: none;
+}
+
+a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: white;
+}
+
+a:focus {
+    color: white;
+    outline: 1px solid purple;
+}
+
+a:active {
+    color: purple;
+}
+
+h1 {
+    color: grey;
+    font-size: 72px;
+    margin-left: 50px;
+}
+
+/* So begins code for the "blog" portion of index.html */
+
+h2 {
+    font-family: 'MedievalSharp', sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+
+.ptitle {
+    font-family: 'MedievalSharp', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.pdate {
+    font-family: 'MedievalSharp', sans-serif;
+    color: purple;
+    font-size: 8px;
+}
+
+.pauthor {
+    font-family: 'MedievalSharp', sans-serif;
+    color: white;
+    font-size: 10px;
+}
+.pcontent {
+    font-family: 'MedievalSharp', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+}
