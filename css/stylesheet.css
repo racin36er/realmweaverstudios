@@ -15,6 +15,10 @@ body {
     font-family: 'Bahiana', sans-serif;
 }
 
+.header-slogan {
+    margin-top: 100px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -22,24 +26,22 @@ body {
 }
 
 .content {
-    padding-left: 100px;
     width: 750px;
+    color: white;
+    font-family: 'MedievalSharp', sans-serif;
+    font-size: 20px;
+    padding-left: 50px;
 }
 
 .main-content {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-gap: 5px;
-
 }
 
 body {
     background-color: black;
     font-family: 'Bahiana', sans-serif;
-}
-.header-slogan {
-    margin-left: 50px;
-    margin-top: 100px;
 }
 
 .nav {
@@ -47,6 +49,7 @@ body {
     color: white;
     font-size: 32px;
     margin-bottom: 100%;
+    width: 175px;
 }
 
 li {
@@ -124,6 +127,8 @@ h2 {
     margin-left: 200px;
 }
 
+
+
 .button {
     font-family: 'MedievalSharp', sans-serif;
     background-color: black;
@@ -165,4 +170,14 @@ h2 {
     font-family: 'MedievalSharp', sans-serif;
     font-size: 16px;
     color: white;
+}
+
+/* "about" page stying */
+
+.content-about {
+    width: 750px;
+    color: white;
+    font-family: 'MedievalSharp', sans-serif;
+    font-size: 20px;
+    padding-left: 50px;
 }
