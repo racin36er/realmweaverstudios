@@ -15,10 +15,33 @@ body {
     font-family: 'Bahiana', sans-serif;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 5px;
+}
+
+.content {
+    padding-left: 100px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 5px;
+
+}
+
+body {
+    background-color: black;
+    font-family: 'Bahiana', sans-serif;
+}
+
 .nav {
     text-decoration: none;
     color: white;
     font-size: 32px;
+    margin-bottom: 100%;
 }
 
 li {
@@ -86,4 +109,45 @@ h2 {
     font-family: 'MedievalSharp', sans-serif;
     color: whitesmoke;
     font-size: 20px;
+}
+
+
+/* contact page styling */
+
+.contact {
+    color: purple;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.button {
+    font-family: 'MedievalSharp', sans-serif;
+    background-color: black;
+    color: grey;
+    border: 0px;
+    font-size: 24px;
+    margin: 20px 0px 20px 0px;
+}
+
+.button:hover {
+    color: white;
+}
+
+/* project page styling */
+
+.gametitle {
+    font-family: 'MedievalSharp', sans-serif;
+    font-size: 32px;
+    color: purple;
+}
+
+.gamedesc {
+    font-family: 'MedievalSharp', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.game-status {
+    color: grey;
+    font-size: 18px;
 }
